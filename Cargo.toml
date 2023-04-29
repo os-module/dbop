@@ -8,5 +8,5 @@ edition = "2021"
 [dependencies]
 serde_json = { version = "1.0", default-features = false, features = ["alloc"] }
 serde = {version = "1.0.136",default-features = false,features = ["derive","alloc"]}
-jammdb = {path = "../jammdb"}
+jammdb = {git="https://github.com/Godones/jammdb"}
 log = "0.4.14"
